@@ -1,11 +1,11 @@
 ---
-name: Seeeduino Lotus Cortex-M0+
+name: Seeeduino Nano
 category: Arduino
 bzurl: 
 oldwikiname: 
-prodimagename: Seeeduino_Lotus_Cover.jpg
-surveyurl: https://www.surveymonkey.com/r/Seeeduino_Lotus
-sku: 102010228
+prodimagename: 
+surveyurl: 
+sku: 102010268
 ---
 
 ![](https://github.com/SeeedDocument/Seeeduino-Nano/raw/master/img/seeeduino-Nano-wiki.jpg)
@@ -64,103 +64,9 @@ One more thing, we know that only one on-board Grove connector may not be enough
 ## Hardware Overview
 
 
-<div align="center">
-<figure>
-  <p style=":center"><a href="https://raw.githubusercontent.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/master/img/Pin_out.jpg" target="_blank"><img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/Pin_out.jpg" /></a></p>
-  <figcaption><b>Figure 2</b>. <i>Pinout, you can ckick the image to view the original file</i></figcaption>
-</figure>
-</div>
-
-
-
-
-
-
-
-## Hardware Overview
-
-The images below show an overview of Seeeduino Lotus hardware features. The pin-out and alternate functions of various pins of Seeeduino Lotus are shown in the pin-out diagram. This could be used as a quick reference.
-
-
-<div align="center">
-<figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/block/overview.jpg"/>
-  <figcaption><b>Figure 3</b>. <i>Hardware Overview</i></figcaption>
-</figure>
-</div>
-
-
-
-
-
-- **Grove Digital**  
-There are 6 grove digital connectors, let's take **D3** for instance:  
->GND: System GND  
->VCC: Output 3.3V VCC  
->D3: Connect to digital pin 3  
->D2: Connect to digital pin 2  
-
-
-You can find the silkscreen on the back of the board.
-
-
-<div align="center">
-<figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/block/4.jpg"/>
-  <figcaption><b>Figure 4</b>. <i>Grove Digital Connectors</i></figcaption>
-</figure>
-</div>
-
-
-- **Grove Analog**  
-There are three analog Grove connectors, the input voltage range from 0~3.3V. If you need more than 3 analog input, you can use the analog pin in the header zone.
-
-
-<div align="center">
-<figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/block/5.jpg"/>
-  <figcaption><b>Figure 5</b>. <i>Grove Analog Connectors</i></figcaption>
-</figure>
-</div>
-
-
-
-- **Grove UART**  
-We provide 3 hardware UART Port, one Grove UART, TX-RX pins in the header, and Multiplexed function pin **SCK** **SDO** in the SWD port. However the Multiplexed pin  is not supported by the firmware now.
-So actually, only two hardware UART are available now.  **Serial** corresponds to Grove UART, and **Serial1** corresponds to RX-TX in the header zone.
-
-
-<div align="center">
-<figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/block/3.jpg"/>
-  <figcaption><b>Figure 6</b>. <i>Grove Hardware UART</i></figcaption>
-</figure>
-</div>
-
-
-- **Female Header**  
-The Seeeduino Lotus Cortex-M0+ female header is fully compatible with Arduino UNO. It is worth mentioning that, in the DIGITAL part, all pins with a **~** in front support PWM output. Which means **D3,D4,D5,D6,D8,D9,D10,D11,D12,D13**, ten in total.
-
-
-<div align="center">
-<figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/block/2.jpg"/>
-  <figcaption><b>Figure 7</b>. <i>Female Header</i></figcaption>
-</figure>
-</div>
-
-
-
-- **Li-Po Header**  
-You can use both USB and Li-Po battery supply for Seeeduino Lotus Cortex-M0+. Also, you can use this board to charge your Li-Po battery. When you power the board with USB and plug the Li-Po battery at the same time, the Li-Po battery will be charged, and the **CHR** LED will flash. After the battery is fully charged, the **CHR** LED will stop flashing.
-
-
-<div align="center">
-<figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/block/7.jpg"/>
-  <figcaption><b>Figure 8</b>. <i>JST2.0 Li-Po Header</i></figcaption>
-</figure>
-</div>
+![](https://github.com/SeeedDocument/Seeeduino-Nano/raw/master/img/pinout-1.jpg) 
+ 
+![](https://raw.githubusercontent.com/SeeedDocument/Seeeduino-Nano/master/img/pinout-2.png)
 
 
 
@@ -170,14 +76,20 @@ You can use both USB and Li-Po battery supply for Seeeduino Lotus Cortex-M0+. Al
 
 ### Hardware
 
-First of all, you need to:
+**Materials required**
 
-* **Get a Micro-USB cable**
-You need a Micro-USB cable first; the data cable of an Android Phone will do fine.
-If you can't find one, you can buy one [here](http://www.seeedstudio.com/depot/Micro-USB-Cable-48cm-p-1475.html?cPath=98_100).
+- Seeeduino Nano x1 
+- Computer x1
+- USB typc cable x1
 
-* **Connect the board**
-Connect the Arduino board to your computer using the USB cable. The green power LED (labelled **PWR**) should go on.
+!!!Tip
+    Some USB cables can only supply power and cannot transfer data. If you don't have a usb cable or don't know if your usb cable can transmit data, you can check [seeed USB type C support USB 3.1 ](https://www.seeedstudio.com/USB-Type-C-to-A-Cable-1Meter-p-4085.html).
+
+
+
+
+
+Connect the Seeeduino Nano to your computer using the USB cable. The blue power LED (labelled **PWR**) should light on.
 
 
 
@@ -211,13 +123,13 @@ Open the LED blink example sketch: **File > Examples >01.Basics > Blink**.
 
 
 - **Step 3. Add the Seeed Board**  
-Please follow the [Seeed Board Intallation Guide](http://wiki.seeedstudio.com/Seeed_Arduino_Boards/) to add the Seeeduino Lotus Cortex-M0+ into your Arduino IDE.
+Please follow the [Seeed Board Intallation Guide](http://wiki.seeedstudio.com/Seeed_Arduino_Boards/) and serch the key word **Seeeduino AVR** to add the **Seeeduino Nano** into your Arduino IDE. 
 
 
 <div align="center">
 <figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/add_board.jpg"/>
-  <figcaption><b>Figure 10</b>. <i>The key word is Lotus M0</i></figcaption>
+  <img src="https://github.com/SeeedDocument/Seeeduino-Nano/raw/master/img/IDE-1.jpg"/>
+  <figcaption><b>Figure 10</b>. <i>The key word is **Seeeduino Nano**</i></figcaption>
 </figure>
 </div>
 
@@ -244,6 +156,11 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
   <figcaption><b>Figure 12</b>. <i>Choose the right port</i></figcaption>
 </figure>
 </div>
+
+
+!!!Tip
+    When you install the Seeeduino AVR board, please make sure to select the Version 1.2.1 or above.
+
 
 
 - **Step 5.Upload the program**  
