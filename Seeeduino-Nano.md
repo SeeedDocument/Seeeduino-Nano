@@ -134,15 +134,18 @@ Please follow the [Seeed Board Intallation Guide](http://wiki.seeedstudio.com/Se
 </div>
 
 
+!!!Tip 
+    When you install the Seeeduino AVR board, please make sure to select the Version 1.2.1 or above.
+
 
 
 - **Step 4. Select your board and port**  
 You'll need to select the entry in the **Tools > Board** menu that corresponds to your Arduino.
-Selecting a **Seeeduino Lotus Cortex-M0+**.
+Selecting a **Seeeduino Nano**.
 
 <div align="center">
 <figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/add_board_1.jpg"/>
+  <img src="https://github.com/SeeedDocument/Seeeduino-Nano/raw/master/img/IDE-2.jpg"/>
   <figcaption><b>Figure 11</b>. <i>Choose the right board</i></figcaption>
 </figure>
 </div>
@@ -152,14 +155,13 @@ Select the serial device of the Arduino board from the Tools | Serial Port menu.
 
 <div align="center">
 <figure>
-  <img src="https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/img/add_board_2.jpg"/>
+  <img src="https://github.com/SeeedDocument/Seeeduino-Nano/raw/master/img/IDE-3.jpg"/>
   <figcaption><b>Figure 12</b>. <i>Choose the right port</i></figcaption>
 </figure>
 </div>
 
 
-!!!Tip
-    When you install the Seeeduino AVR board, please make sure to select the Version 1.2.1 or above.
+
 
 
 
@@ -179,8 +181,8 @@ A few seconds after the upload finishes, you should see the pin 13 (L) LED on th
 
 ## Resources
 
-- **[ZIP]** [Seeeduino Lotus Cortex-M0+ Eagle file](https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/res/Seeeduino_Lotus_Cortex-M0%2B.zip)
-- **[PDF]** [SAM D21 DATASHEET](https://github.com/SeeedDocument/Seeeduino_Lotus_Cortex-M0-/raw/master/res/SAM_D21.pdf)
+- **[ZIP]** [Seeeduino nano Eagle file](https://github.com/SeeedDocument/Seeeduino-Nano/raw/master/res/Seeeduino%20nano.zip)
+- **[PDF]** [ATmega328-datasheet](https://github.com/SeeedDocument/Seeeduino-Nano/raw/master/res/ATmega328-datasheet.pdf)
 
 
 
